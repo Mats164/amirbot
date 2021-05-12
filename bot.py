@@ -41,7 +41,7 @@ async def on_message(message):
         'Er det teori eller hypotese da?', 'Jeg skal grille deg!', 
     ]
 
-    if random.randint(0, 5) == 2:
+    if random.randint(0, 14) == 2:
         response = random.choice(amirQuotes)
         await message.channel.send(response)
 
