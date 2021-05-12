@@ -4,12 +4,12 @@ from operator import add
 import os
 import discord
 import random
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
 intents = discord.Intents.all()
 client = discord.Client(intents=intents)
 
-load_dotenv()
+# load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 GUILD = os.getenv('DISCORD_GUILD')
 
